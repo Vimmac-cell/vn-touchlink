@@ -16,6 +16,6 @@ Then turn on USB debugging on the phone, plug in the cable and tap **Allow**. Th
 - `android/` — phone app (Java, no extra libraries except ZXing for the QR code)
 - `pc/` — Windows tray app (C# .NET 8)
 - `installer/` — Inno Setup script for `VNTouchLink-Setup.exe`
-- `PLAN.md` — features and roadmap · `HOW-TO-USE.md` — usage, settings and build commands
+- `HOW-TO-USE.md` — install and use · `BUILDING.md` — build from source · `PLAN.md` — roadmap
 
 `pc/adb/` contains Google's adb from Android SDK platform-tools (see `pc/adb/NOTICE.txt`).

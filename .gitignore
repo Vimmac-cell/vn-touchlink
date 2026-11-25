@@ -19,3 +19,6 @@ Thumbs.db
 # Signing keys (never upload)
 *.jks
 *.keystore
+
+# Personal notes for this PC
+NOTES-LOCAL.md

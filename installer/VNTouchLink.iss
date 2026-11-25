@@ -1,6 +1,7 @@
 ﻿; VN TouchLink - Windows installer (Inno Setup 6)
-; Build:  & "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" "D:\APP DEV\Test Projects\PhoneLink\installer\VNTouchLink.iss"
-; Output: D:\APP DEV\Test Projects\PhoneLink\build\installer\VNTouchLink-Setup.exe
+; Build (from the project folder, see BUILDING.md):
+;   & "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" installer\VNTouchLink.iss
+; Output: build\installer\VNTouchLink-Setup.exe
 
 #define AppName "VN TouchLink"
 #define AppVersion "0.1"
