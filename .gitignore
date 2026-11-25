@@ -1,0 +1,21 @@
+# Build output
+build/
+pc/bin/
+pc/obj/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
+
+# IDE / OS
+.idea/
+.vs/
+*.iml
+Thumbs.db
+.DS_Store
+
+# Signing keys (never upload)
+*.jks
+*.keystore

@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.vnk.phonelink'
+    compileSdk 37
+
+    defaultConfig {
+        applicationId 'com.vnk.phonelink'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.1'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // QR code for the "get the PC app" link
+    implementation 'com.google.zxing:core:3.5.3'
+}
